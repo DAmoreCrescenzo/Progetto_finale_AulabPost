@@ -1,0 +1,36 @@
+.must-custom{
+   background-image: url('/public/img/Musthead_2.jpg');
+   height: 700px;
+   background-size:cover;
+   background-repeat: no-repeat;
+}
+
+
+.must-title{
+   font-size:100px;
+   font-weight:bolder;
+   color: #fd7e14;
+   /* background-color: rgba(0, 0, 0, 0.5); */
+   padding: 10px;
+}
+
+.iconCustom{
+   position: absolute;
+   top: 650px;
+   font-size: 70px;
+   left: 920px;
+}
+
+@media screen and (max-width: 600px){
+   .must-title{
+      font-size: 35px;
+   }
+
+   .iconCustom{
+      position: absolute;
+      top: 600px;
+      font-size: 40px;
+      margin-left: -15px;
+      left:200px
+   }
+}

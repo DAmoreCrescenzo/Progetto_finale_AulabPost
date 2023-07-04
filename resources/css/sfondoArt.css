@@ -1,0 +1,18 @@
+.sfondoArt{
+    background-image: url(/public/img/colori.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sfondo{
+    background: hsla(0, 0%, 76%, 1);
+
+    background: radial-gradient(circle, hsla(0, 0%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    
+    background: -moz-radial-gradient(circle, hsla(0, 0%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    
+    background: -webkit-radial-gradient(circle, hsla(0, 0%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C2C2C2", endColorstr="#FFFFFF", GradientType=1 );
+
+}

@@ -1,0 +1,10 @@
+.login-custom{
+
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.loginHeight{
+    min-height: 70vh;
+}
+
